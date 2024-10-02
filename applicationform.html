@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>APPLICATION FORMAT</title>
+    <link rel="stylesheet" href="applicationform.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="apply-box">
+            <h1>APPLICATION</h1>
+            <form action="">
+                <div class="form-container">
+                    <div class="form-control">
+                        <label for="fn">FIRST NAME</label>
+                        <input type="text" name="firstname" id="fn" placeholder="ENTER FIRST NAME" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="ln">LAST NAME</label>
+                        <input type="text" name="lastname" id="fn" placeholder="ENTER LAST NAME" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="mail">EMAIL</label>
+                        <input type="email" name="mail" id="mail" placeholder="ENTER EMAIL" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="jr">JOB ROLE</label>
+                        <select id="jr" name="jr">
+                            <option value="">SELECT JOB ROLE</option>
+                            <option value="frontend">FRONT END DEVLOPER</option>
+                            <option value="backend">BACK END DEVLOPER</option>
+                            <option value="fullstack">FULL STACK DEVLOPER</option>
+                            <option value="uiux">UI UX DEVLOPER</option>
+                        </select>
+                    </div>
+                    <div class="form-control">
+                        <label for="address">ADDRESS</label>
+                        <textarea name="address" id="address" rows="4" cols="50" placeholder="ENTER ADDRESS"></textarea>
+                    </div>
+                    <div class="form-control">
+                        <label for="city">CITY</label>
+                        <input type="text" name="city" id="city" placeholder="ENTER CITY" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="pincode">PINCODE</label>
+                        <input type="number" name="pincode" id="pincode" placeholder="ENTER PINCODE" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="date">DATE</label>
+                        <input value="2024-10-02" type="date" name="date" id="date" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="upload">UPLOAD YOUR RESUME</label>
+                        <input type="file" name="upload" id="upload" required>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button type="submit">APPLY NOW</button>
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
